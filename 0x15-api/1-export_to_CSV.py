@@ -4,16 +4,25 @@ import csv
 import requests
 import sys
 
-if __name__ == "__main__":
-    user_id = sys.argv[1]
-    url = "https://jsonplaceholder.typicode.com/"
-    user_response = requests.get(url + "users/{}".format(user_id))
-    user = user.json()
-    username = user.get("username")
-    todos_response = requests.get(url + "todos", params={"userId": user_id}).json()
+def get_employee_name(employee_id):
+    url = f"https://jsonplaceholder.typicode.com/users/{employee_id}"
+    response = requests.get(url)
+    response.raise_for_status()
+    user_data = response.json()
+    return user_data.get("username")
 
-    with open("{}.csv".format(user_id), "w", newline="") as csvfile:
-        writer = csv.writer(csvfile, quoting=csv.QUOTE_ALL)
-        
-   for todo in todos:
-        writer.writerow([user_id, username, todo.get("completed"), todo.get("title")]) 
+def get_employee_todos(employee_id):
+    url = f"https://jsonplaceholder.typicode.com/todos?userId={employee_id}"
+    response = requests.get(url)
+    response.raise_for_status()
+    todos = response.json()
+    return todos
+
+def write_to_csv(employee_id, username, todos):
+    filename = f"{employee_id}.csv"
+    with open(filename, mode='w', newline='') as file:
+        writer = csv.writer(file, quoting=csv.QUOTE_ALL)
+
+        for todo in todos:
+            writer.writerow([employee_id, username, todo.get("completed"), todo.get("title")])
+

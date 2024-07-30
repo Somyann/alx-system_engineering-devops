@@ -1,2 +1,2 @@
 #!/bin/bash
-sum=$(echo "obase=10; ibase=$BASE_WATER; $WATER" | bc) && sum=$(echo "$sum + $(echo "obase=10; ibase=$BASE_STIR; $STIR" | bc)" | bc) && echo $(echo "obase=$BASE_BESTCHOL; ibase=10; $sum" | bc)
+echo $(($WATER+$STIR))

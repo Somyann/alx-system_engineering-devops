@@ -13,9 +13,9 @@ def number_of_subscribers(subreddit):
     Function that queries the Reddit API
     - If not a valid subreddit, return 0.
     """
-    url =  "https://www.reddit.com/r/{}/about.json".format(subreddit)
+    url = "https://www.reddit.com/r/{}/about.json".format(subreddit)
     headers = {"User-Agent": "mozilla/5.0"}
-    
+
     response = requests.get(url, headers=headers)
     if response.status_code == 200:
         data = response.json()
@@ -26,4 +26,5 @@ def number_of_subscribers(subreddit):
 
 if __name__ == "__main__":
     subreddit_name = "python"
-    print(f"The subreddit '{subreddit_name}' has {number_of_subscribers(subreddit_name)} subscribers.")
+    print(f"The subreddit '{subreddit_name}'
+          has {number_of_subscribers(subreddit_name)} subscribers.")

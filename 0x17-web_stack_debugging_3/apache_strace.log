@@ -1,0 +1,2206 @@
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=0, tv_nsec=340895552}, NULL <unfinished ...>
+748   read(5,  <unfinished ...>
+749   read(5,  <unfinished ...>
+747   <... pselect6 resumed>)           = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719258674
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719258774
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719258874
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719258974
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259074
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259175
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259275
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259375
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259475
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259575
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259676
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259776
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259876
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719259976
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260076
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260177
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260277
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260377
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260477
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260578
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260678
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260778
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260879
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719260979
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261079
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261179
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261280
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261380
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261480
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261580
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261680
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261781
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261881
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719261981
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262082
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262182
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262282
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262382
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262482
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262582
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262683
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262783
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262883
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719262983
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719263084
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=71 /* 0.71 s */, tms_cutime=0, tms_cstime=0}) = 1719263184
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263284
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263384
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263484
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263585
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263685
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263785
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263885
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719263985
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264086
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264186
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264286
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264386
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264486
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264586
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264686
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264786
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264887
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719264987
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265087
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265188
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265288
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265388
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265488
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265588
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265688
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265789
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265889
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719265989
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266089
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266190
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266290
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266390
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266490
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266590
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266690
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266791
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266891
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719266991
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267091
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267192
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267292
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267392
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267492
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267592
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267693
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267793
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=72 /* 0.72 s */, tms_cutime=0, tms_cstime=0}) = 1719267893
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719267994
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268094
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268194
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268294
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268394
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268495
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268595
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268695
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268796
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268896
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719268996
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269096
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269196
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269297
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269397
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269497
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269597
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269698
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269798
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269898
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719269998
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270098
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270199
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270299
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270399
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270500
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270600
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270700
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270800
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719270901
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719271001
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719271101
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719271201
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719271302
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719271402
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719271502
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=73 /* 0.73 s */, tms_cutime=0, tms_cstime=0}) = 1719271602
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719271702
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719271802
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719271903
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272003
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272103
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272203
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272304
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272404
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272504
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272604
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272704
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272805
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719272905
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273005
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273105
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273206
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273306
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273406
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273506
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273607
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273707
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273807
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719273908
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274008
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274108
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274208
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274308
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274408
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274509
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274609
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274710
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274810
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719274910
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719275010
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719275111
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719275211
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=74 /* 0.74 s */, tms_cutime=0, tms_cstime=0}) = 1719275311
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719275412
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719275512
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719275612
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719275712
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719275812
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719275912
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276013
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276113
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276213
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276313
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276414
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276514
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276614
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276714
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276814
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719276915
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277015
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277115
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277215
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277315
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277416
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277516
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277616
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277716
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277816
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719277917
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278017
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278117
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278218
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278318
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278418
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=38 /* 0.38 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278518
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278619
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278719
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278819
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719278919
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279020
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279120
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279220
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279320
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279421
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279521
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279621
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279721
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279822
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719279922
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280022
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280122
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280222
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280322
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280422
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280523
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280623
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280723
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280823
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719280924
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281024
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281124
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281224
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281324
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281424
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281525
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281625
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281725
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281825
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719281926
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282026
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282126
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282226
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282326
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282426
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282527
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282627
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282727
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282827
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719282928
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283028
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283128
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283228
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283328
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=39 /* 0.39 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283429
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283529
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283629
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283729
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283830
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719283930
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284030
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284130
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284230
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284331
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284431
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284531
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284631
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284731
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284831
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719284932
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285032
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285132
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285232
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285332
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285432
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285532
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285633
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285733
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285833
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719285933
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719286034
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719286134
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719286234
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=75 /* 0.75 s */, tms_cutime=0, tms_cstime=0}) = 1719286334
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719286434
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719286534
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719286635
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719286735
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719286835
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719286935
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287036
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287136
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287236
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287336
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287436
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287536
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287637
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287737
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287837
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719287937
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288038
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288138
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288238
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288338
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288439
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288539
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288639
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288740
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288840
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719288940
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289040
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289140
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289240
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289341
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289441
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289541
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289641
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289742
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289842
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719289942
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719290042
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719290142
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719290243
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719290343
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=76 /* 0.76 s */, tms_cutime=0, tms_cstime=0}) = 1719290443
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719290544
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719290644
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719290744
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719290844
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719290944
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291045
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291145
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291245
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291346
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291446
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291546
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291646
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291746
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291847
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719291947
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292047
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292148
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292248
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292348
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292448
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292548
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292649
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292749
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292849
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719292950
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293050
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293150
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293250
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293350
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293451
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293551
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293651
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293752
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293852
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719293952
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=77 /* 0.77 s */, tms_cutime=0, tms_cstime=0}) = 1719294052
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294153
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294253
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294354
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294454
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294554
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294654
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294755
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294855
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719294955
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295056
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295156
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295256
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295356
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295457
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295557
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295658
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295758
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295858
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719295958
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296058
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296159
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296259
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296359
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296459
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296560
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296660
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296760
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296860
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719296961
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297061
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297161
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297262
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297362
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297462
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297562
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297662
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297762
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297863
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=78 /* 0.78 s */, tms_cutime=0, tms_cstime=0}) = 1719297963
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298063
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298163
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298264
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298364
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298464
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298564
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298664
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298764
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298865
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719298965
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299065
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299165
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299266
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299366
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299466
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299566
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299666
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299767
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299867
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719299967
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300067
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300168
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300268
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300368
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300468
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300568
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300669
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300769
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300869
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719300969
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301070
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301170
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301270
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301370
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301471
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301571
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301672
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301772
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301872
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719301972
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719302072
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=79 /* 0.79 s */, tms_cutime=0, tms_cstime=0}) = 1719302172
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302273
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302373
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302473
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302573
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302674
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302774
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302874
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719302974
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303074
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303174
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303275
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303375
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303475
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303575
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303676
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303776
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303876
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719303976
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304076
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304176
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304277
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304377
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304477
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304577
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304678
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304778
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304878
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719304978
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305078
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305178
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305279
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305379
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305479
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305579
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305679
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305780
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305880
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719305980
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719306080
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719306180
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719306280
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719306381
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719306481
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=80 /* 0.80 s */, tms_cutime=0, tms_cstime=0}) = 1719306581
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719306682
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719306782
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719306882
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719306982
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307082
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307183
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307283
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307383
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307483
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307584
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307684
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307784
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307884
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719307984
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308085
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308185
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308285
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308386
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308486
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308586
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308686
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308786
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308886
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719308987
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309087
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309187
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309287
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309388
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309488
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309588
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309688
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309788
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309889
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719309989
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310089
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310190
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310290
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310390
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310490
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310590
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310690
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310791
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310891
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719310991
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=81 /* 0.81 s */, tms_cutime=0, tms_cstime=0}) = 1719311092
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311192
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311292
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311392
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311492
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311593
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311693
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311794
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311894
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719311994
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312094
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312194
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312295
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312395
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312495
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312596
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312696
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312796
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312897
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719312997
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313097
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313198
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313298
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313398
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313498
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313598
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313699
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313799
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719313899
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719314000
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719314100
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719314200
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719314300
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=82 /* 0.82 s */, tms_cutime=0, tms_cstime=0}) = 1719314401
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719314501
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719314601
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719314702
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719314802
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719314902
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315002
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315103
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315203
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315303
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315403
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315504
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315604
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315704
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315804
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719315904
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316004
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316105
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316205
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316305
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316406
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316506
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316606
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316706
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316806
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719316907
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317007
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317107
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317208
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317308
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317408
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317508
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317608
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317709
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317809
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719317909
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719318010
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=83 /* 0.83 s */, tms_cutime=0, tms_cstime=0}) = 1719318110
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318210
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318311
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318411
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318512
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318612
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318712
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318812
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719318913
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319013
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319113
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319213
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319314
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319414
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319514
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319614
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319715
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319815
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719319915
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320015
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320116
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320216
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320316
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320416
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320516
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320617
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320717
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320817
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719320918
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321018
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321118
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321218
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321318
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321418
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321519
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321619
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321719
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321819
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719321920
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719322020
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719322120
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719322220
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719322321
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719322421
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719322521
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=84 /* 0.84 s */, tms_cutime=0, tms_cstime=0}) = 1719322621
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719322722
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719322822
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719322922
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323022
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323122
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323223
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323323
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323423
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323524
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323624
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323724
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323824
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719323924
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324024
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324124
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324225
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324325
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324425
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324526
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324626
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324726
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324827
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719324927
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325027
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325128
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325228
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325328
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325428
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325529
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325629
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325729
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325830
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=85 /* 0.85 s */, tms_cutime=0, tms_cstime=0}) = 1719325930
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326030
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326130
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326230
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326331
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326431
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326531
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326631
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326732
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326832
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719326932
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327032
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327132
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327233
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327333
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327434
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327534
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327634
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327734
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327834
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719327935
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328035
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328135
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328236
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328336
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328436
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328536
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328637
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328737
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328838
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=86 /* 0.86 s */, tms_cutime=0, tms_cstime=0}) = 1719328938
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329038
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329138
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329238
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329338
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329439
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329539
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329639
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329739
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329840
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719329940
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330040
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330140
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330240
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330341
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330441
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330541
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330642
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330742
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330842
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719330943
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331043
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331144
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331244
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331344
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331444
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331544
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331645
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331745
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331845
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719331945
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719332045
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL) = 0 (Timeout)
+747   wait4(-1, 0x7ffd8d83916c, WNOHANG|WSTOPPED, NULL) = 0
+747   times({tms_utime=40 /* 0.40 s */, tms_stime=87 /* 0.87 s */, tms_cutime=0, tms_cstime=0}) = 1719332146
+747   pselect6(0, NULL, NULL, NULL, {tv_sec=1, tv_nsec=0}, NULL <detached ...>

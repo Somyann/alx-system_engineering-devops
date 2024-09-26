@@ -1,22 +1,9 @@
 #!/usr/bin/env bash
-# Debugging Nginx port 80
-# This script ensures Nginx is configured to listen on port 80 by replacing the default site configuration.
-
-# Stop Apache if it's running to free up port 80
-sudo service apache2 stop
-sudo systemctl disable apache2
-
-# Create a symbolic link from sites-available to sites-enabled
-# -s: create symbolic link
-# -f: force the link creation by removing any existing file at the target
+# debugging nginx port 80
+# How I solved it: delete the existing ../sites-enabled/default and replace it with a copy of
+# ../sites-available/default. You do that by creating a symbolic link. 
+# NB: The flag -s creates a symbolic link, -f deletes the existing file and replaces it
 sudo ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 
 # Restart Nginx to apply the new configuration
 sudo service nginx restart
-
-# Check if Nginx is listening on port 80 and returning HTTP 200
-if curl -o /dev/null -s -w "%{http_code}\n" http://localhost | grep -q '^200$'; then
-  echo "2"
-else
-  echo "0"
-fi
